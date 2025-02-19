@@ -1,8 +1,7 @@
-# React + Vite
+# Story Cube - Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Clique nos emojis e construa uma história com base nas imagens. Só há uma regra: não há limites para a imaginação! 
 
-Currently, two official plugins are available:
+Em cada rodada, um jogador deve começar clicando num emoji e iniciando a frase com “Era uma vez...” e continuando sua história usando as palavras representadas pelos emojis que saíram.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Vamos começar?

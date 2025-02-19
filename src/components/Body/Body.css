@@ -1,29 +1,36 @@
 .container-body {
-    height: 100%;
-    width: 100%;
-    background-color: #ffffff41;
+    height: 500px;
+    width: 300px;
+    background-color: #82828277;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
     border-radius: 8px;
-    box-shadow: 0 4px 8px 0 rgba(0, 217, 255, 0.2), 0 6px 20px 0 rgba(0, 255, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(55, 58, 58, 0.2), 0 6px 20px 0 rgb(0, 255, 0);
 
 }
 
-.container-body-button {
+/* .container-body-button {
 
     background-color: lightgreen;
     cursor: pointer;
 
-}
+} */
 
 .container-emoji {
-
-    height: 500px;
-    width: 300px;
+    background-color: #828282;
+    height: 250px;
+    width: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 200px;
+    border-radius: 8px;
     cursor: pointer;
     user-select: none;
+    /* box-shadow: 0 4px 8px 0 rgba(55, 58, 58, 0.2), 0 6px 20px 0 rgb(0, 255, 0); */
+
 }
 
 .title {
