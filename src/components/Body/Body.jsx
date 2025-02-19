@@ -6,7 +6,7 @@ const Body = () => {
 
     const [image, setImage] = useState(['😍', '👍', '🤣', "😒", "❤️", "💖", "😎", "😉", "🤦‍♀️", "🤦‍♂️", "👌", "🎶", "🤩", "🫥", "😶‍🌫️", "🤐", "😜", "😓", "🤑", "😰", "🤠", "😈", "👽", "💀"])
     // const [index, setIndex] = useState(length)
-    const [tela, setTela] = useState('')
+    const [tela, setTela] = useState('') //aqui tambem e possivel iniciar um emoji
 
     const sortImage = () => {
 
