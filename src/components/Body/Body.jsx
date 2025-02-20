@@ -14,13 +14,16 @@ const Body = () => {
         // console.log("meu indice: " + i)
         // console.log("meu numero do vetor: " + image[i])
         setTela(image[i])
+
+        //nao repetir emoji
+        // setImage(image.filter((e) => e != image[i]))
+
     }
 
     // utilizar useEffect para carregar um emoji
-
     useEffect(() => {
         sortImage()
-    })
+    }, [])
 
     // useEffect(() => {
     //     const tempo = setInterval(() => {
